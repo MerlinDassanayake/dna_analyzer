@@ -24,7 +24,7 @@ def main():
         gc_percent = (nuc_dict["G"] + nuc_dict["C"]) / dna_length
 
 
-        print(nuc_dict)
+        print(f"The GC percentage is {gc_percent}, and the counts for each base are {nuc_dict}.")
         return gc_percent, dna_length
 
 
